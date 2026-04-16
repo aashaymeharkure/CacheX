@@ -59,23 +59,7 @@ mvn spring-boot:run
 ```
 *(Wait until you see "Started BackendApplication" in the terminal logs).*
 
-### Step 2: Start the Frontend (Node.js/Next.js)
-Open a **new** separate terminal and start the web interface.
 
-```bash
-# 1. Go to the frontend folder
-cd frontend
-
-# 2. Install dependencies
-npm install
-
-# 3. Start up Next.js
-npm run dev
-```
-
-Now, open your browser and go to `http://localhost:3000`. When you click **START**, the frontend will talk to the backend, and you will see the charts and data start flying!
-
----
 
 ## 🛠️ Troubleshooting
 
